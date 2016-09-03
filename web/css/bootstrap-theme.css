@@ -1,0 +1,23 @@
+body {
+  background-color: #f3f4f6;
+  color: #37383a;
+}
+.btn-primary {
+  background-color: #795088;
+  border-color: transparent;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.btn-primary:active,
+.btn-primary:hover {
+  background-color: #683f77;
+  border-color: transparent;
+}
+.navbar {
+  background-color: #FFFFFF;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 1px 6px rgba(12, 12, 12, 0.1);
+  -moz-box-shadow: 0 1px 6px rgba(12, 12, 12, 0.1);
+  box-shadow: 0 1px 6px rgba(12, 12, 12, 0.1);
+}

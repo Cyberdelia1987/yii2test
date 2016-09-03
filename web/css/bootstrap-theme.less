@@ -1,0 +1,45 @@
+@white: #FFFFFF;
+@background-light-gray: #f3f4f6;
+@purple: #795088;
+@purple-darker: @purple - #111;
+
+@text-primary: #37383a;
+
+@transparent: transparent;
+
+.padding-common (@padding: 0) {
+  padding: @padding;
+}
+.padding-two (@paddingTopBottom: 0, @paddingRightLeft: 0){
+  padding: @paddingTopBottom @paddingRightLeft;
+}
+.border-radius (@radius: 2px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+.box-shadow (@hoff, @voff, @blur, @color) {
+  -webkit-box-shadow: @hoff @voff @blur @color;
+  -moz-box-shadow: @hoff @voff @blur @color;
+  box-shadow: @hoff @voff @blur @color;
+}
+
+body {
+  background-color: @background-light-gray;
+  color: @text-primary;
+}
+.btn-primary {
+  background-color: @purple;
+  border-color: @transparent;
+  .border-radius(2px)
+}
+.btn-primary:active,
+.btn-primary:hover {
+  background-color: @purple-darker;
+  border-color: @transparent;
+}
+.navbar {
+  background-color: @white;
+  .padding-two(10px, 0);
+  .box-shadow(0, 1px, 6px, rgba(12, 12, 12, 0.1))
+}

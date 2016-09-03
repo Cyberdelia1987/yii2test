@@ -4,9 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "479407875c975e7dbee0aefcb85e62d5",
-    "content-hash": "5c27dd23827e5c153817a7f3f5d227c6",
+    "hash": "b89ccc9276d39b8fbe6c52ae42814ba4",
+    "content-hash": "005b6699d842a822be471a3b1aefd354",
     "packages": [
+        {
+            "name": "artkost/yii2-uikit",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artkost/yii2-uikit.git",
+                "reference": "83b7463084708f2e6f143d0893f5b04cbede5c7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artkost/yii2-uikit/zipball/83b7463084708f2e6f143d0893f5b04cbede5c7c",
+                "reference": "83b7463084708f2e6f143d0893f5b04cbede5c7c",
+                "shasum": ""
+            },
+            "require": {
+                "uikit/uikit": "2.*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "artkost\\uikit\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Kostyurin",
+                    "email": "nikolay@artkost.ru"
+                }
+            ],
+            "description": "The UIkit front-end framework extension for the Yii 2 framework",
+            "keywords": [
+                "css",
+                "uikit",
+                "yii2"
+            ],
+            "time": "2015-09-29 10:08:21"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.7",
@@ -351,6 +393,34 @@
                 "mailer"
             ],
             "time": "2016-07-08 11:51:25"
+        },
+        {
+            "name": "uikit/uikit",
+            "version": "2.26.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uikit/uikit.git",
+                "reference": "f8accbc6295f288508d9fea0fbf63912b2976bc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uikit/uikit/zipball/f8accbc6295f288508d9fea0fbf63912b2976bc2",
+                "reference": "f8accbc6295f288508d9fea0fbf63912b2976bc2",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.26-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.",
+            "homepage": "http://getuikit.com/",
+            "time": "2016-07-13 12:55:11"
         },
         {
             "name": "yiisoft/yii2",
